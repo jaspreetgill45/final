@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Login</title>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="../../styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <style>
+            body{
+                background-image: none;
+            }
+            #wrapper_first{
+                background-color: purple;
+            }
+            button {
+                background-color: purple;
+                color: white;
+                padding: 2% 2%;;
+                margin: 1% 0%;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+            }
+
+            button:hover {
+                background-color: rgb(110,0,110,1)
+            }
+            p{
+                padding: 5%;
+                background-color: rgb(155, 70, 0);
+            }
+            
+
+
+        </style>
+	</head>
+	<body>
+       <div id="wrapper_first">
+        <div id="header">
+            <h2>Outside Resto</h2>
+        </div>
+        <nav class="fill">
+               
+            <ul>    
+                       
+                <li><a href="../">Home</a></li>
+                <li><a href="../personal_data/">Pay slips</a></li>
+                <li><a href="../upload/">Comany's documents</a></li>
+                <li><a href="../avail/">Job positioning</a></li>
+                <li><a href="../setting/">Settings</a></li>
+                <li><a href="../../">log out</a></li>
+                                
+     </ul>
+                 
+        </nav>
+        </div>
+                <div id="wrapperlogin">
+            <div id="first_half">
+                <img src="../../images/login/flower-3429529_1920.jpg">
+            </div>
+            <div id="second_half">
+                <p>Please login again for security reasons</p>
+                <form action="settings.php?Username={{username}}&Password={{password}}&remember=on">
+                  <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="Username" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="Password" required>
+
+                    <button type="submit">Login</button>
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                  </div>
+
+                  
+                </form>
+            </div>
+            
+        </div>
+         <div id="footer">
+                <h3>Copyright developed by jaspreet singh</h3>
+            </div>
+    </body>
+</html>

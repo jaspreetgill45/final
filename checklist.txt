@@ -1,0 +1,12 @@
+Logon system has been created with the help of twigs. Pages like join.html,login.html are the twig template used.
+6 pages after login are placed inside afterlogon folder.
+3 twig templates: More than 3 have been used here. Some of the templates are placed under the folder named templates and some in the afterlogon folder.
+comment page has been completed with the help of AJAX.
+PHP library has also been created, the files are in the root directory(sql helper) and in the afterlogon folder(connect.php).
+Page is responsive, media query have been used to apply that.
+
+reference:
+http://talkerscode.com/webtricks/simple-instant-comment-system-using-ajax.php
+http://codingcyber.org/simple-shopping-cart-application-php-mysql-6394/
+https://www.w3schools.com/php/php_file_upload.asp
+https://gitlab.com/SleepyInstructor/CPSC2030Examples
